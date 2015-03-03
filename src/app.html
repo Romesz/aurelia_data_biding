@@ -1,0 +1,39 @@
+<template>
+  <section>
+    <form submit.delegate="formSubmitted()">
+      First Name
+      <input type="text" value.bind="firstName"><br>
+      Last Name
+      <input type="text" value.bind="lastName"><br>
+
+      <button type="submit">Submit</button><br>
+    </form>
+    
+    <p>Full Name: ${fullName}</p>
+    
+  </section>
+  
+  <section>
+    
+    <!--
+
+    <a href.bind="url"></a>
+    // example for one way data biding
+    -->
+
+    <!--
+
+    <div if.bind="isSomething">if</div>
+    // if statment
+    -->
+    
+    <!--
+    
+    <ul>
+        <li repeat.for="customer of customers">${customer.name}</li>
+    </ul>
+    // for
+    -->
+    
+  </section>
+</template>
